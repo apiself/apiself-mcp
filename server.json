@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.apiself/catalogue",
+  "title": "APISelf",
+  "description": "Search the APISelf catalogue of self-hosted desktop apps and get the Manager install command",
+  "version": "1.0.0",
+  "websiteUrl": "https://apiself.com",
+  "repository": {
+    "url": "https://github.com/apiself/apiself-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apiself.com/mcp"
+    }
+  ]
+}

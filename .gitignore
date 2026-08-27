@@ -1,2 +1,5 @@
 .DS_Store
 Thumbs.db
+
+# DNS auth private key - never commit
+key.pem
