@@ -1,7 +1,7 @@
 # APISelf MCP
 
-Eighteen local desktop applications, served to your AI agent as MCP tools from a
-single endpoint on your own machine.
+Local desktop applications, served to your AI agent as MCP tools from a single
+endpoint on your own machine.
 
 Most MCP servers wrap a cloud API. These wrap applications that do things on the
 machine itself: Whisper transcription, screen recording, image and video
@@ -103,8 +103,13 @@ place.
 
 ## What you get
 
-A full install is around 500 operations. Per box, counting only domain
-endpoints (health, info and audit excluded):
+Each installed box contributes its own tools, so the total depends on what you
+installed - a full catalogue is several hundred operations. The snapshot below
+counts domain endpoints only, with health, info and audit excluded.
+
+The catalogue changes as boxes ship, so treat this as a picture rather than a
+contract. The live list is at <https://apiself.com/llms.txt>, and the
+`list_boxes` tool on the hosted server above returns it directly.
 
 | Box | Tools | What it is |
 |---|---|---|
@@ -126,8 +131,6 @@ endpoints (health, info and audit excluded):
 | Doc Tools | 14 | Document conversion and PDF editing |
 | Transcribe | 14 | Local Whisper transcription, fully offline |
 | File Drop | 11 | Peer-to-peer file sharing, no upload to any server |
-
-The number on your machine depends on which boxes you installed.
 
 ---
 
